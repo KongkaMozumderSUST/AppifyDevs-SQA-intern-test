@@ -12,7 +12,7 @@
 | T010 | Check Payment Option | EchoGPT Website + App | 1. Click Subscription 2. Select plan 3. Pay | Payment works & deducts correct amount | Functional | High |
 | T011 | Check design consistency | Website + App | 1. Check colors, buttons, margins, footer, typos | Consistent design & working buttons | UI/UX | Medium |
 | T012 | Extremely long message | EchoGPT Website + App | 1. Paste >20k chars 2. Send | Message accepted/rejected clearly; UI stays responsive | Edge | Medium |
-| T013 | Color contrast | EchoGPT Website + App | 1. Inspect CTAs & small text | WCAG AA contrast ≥ 4.5:1 | Accessibility | Medium |
+| T013 | Color contrast | Website + App | 1. Inspect CTAs & small text | WCAG AA contrast ≥ 4.5:1 | Accessibility | Medium |
 | T014 | Screen reader reading order | EchoGPT Website + App | 1. Enable TalkBack 2. Navigate | Elements read in correct order | Accessibility, Exploratory | High |
 | T015 | Keyboard accessibility | EchoGPT Website | 1. Use Tab/Shift+Tab | All interactive elements reachable | Accessibility | High |
 | T016 | Crash Recovery | EchoGPT App + AppTestingService App | 1. Force-stop 2. Relaunch | App restarts; no corruption | Stability | Major |
