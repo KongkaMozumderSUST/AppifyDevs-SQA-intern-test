@@ -24,8 +24,8 @@
 | T022 | Long conversation scrolling | EchoGPT Website + App | 1. Create 100+ messages 2. Scroll | Smooth, no lag/freeze | Stability | Major |
 | T023 | Browser compatibility test | EchoGPT Website | Chrome, Firefox, Edge, Mobile browser | No browser-specific issues | Stability | Critical |
 | T024 | Login with wrong email | Website + App | 1. Enter wrong email | Login should fail | Negative | Critical |
-| T025 | Submit empty messages | Website + App | 1. Try to send empty text | Send disabled; error shown | Negative | Medium |
-| T026 | Dark mode visibility | Website + App | 1. Toggle dark mode | Proper contrast & visibility | UI | Low |
+| T025 | Submit empty messages | EchoGPT Website + App | 1. Try to send empty text | Send disabled; error shown | Negative | Medium |
+| T026 | Dark mode visibility | EchoGPT Website + App | 1. Toggle dark mode | Proper contrast & visibility | UI | Low |
 | T027 | Image Like Count | EchoGPT Website | 1. Click Image → Like | Like count updates | Exploratory | Low |
 | T028 | Logout | Website + App | 1. Click logout | Session cleared | Functional | Low |
 | T029 | SQL/meta characters in input | Website + App | 1. Submit `' OR '1'='1` | Sanitized; no server failure | Edge | High |
