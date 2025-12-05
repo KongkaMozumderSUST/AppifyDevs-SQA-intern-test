@@ -1,4 +1,4 @@
-|**EchoGPT Website**|
+|EchoGPT Website|
 | Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
 |--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
 | 001 | Sign Up/Sign In with Twitter not working | 1. Navigate https://echogpt.live/login<br>2. Click Sign Up/Sign In with Twitter | User can Sign Up or Sign In | Sign Up/Sign In with Twitter not working | Desktop, Windows 11, Chrome Latest; Mobile, Firefox | https://github.com/user-attachments/assets/69290f60-69b4-468f-958c-c9436854898d | No error shown | Critical | Critical |
