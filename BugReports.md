@@ -9,3 +9,6 @@
 | 005 | Email Us not launching mail | 1. Navigate https://echogpt.live/<br>2. Click “Support”<br>3. Click “Email Us” | Email should launch | Email did not launch | Desktop, Windows 11, Chrome Latest; Mobile, Firefox | https://github.com/user-attachments/assets/b263bc40-e705-436b-a835-e994e4c7f9b7 | Not allowed to launch 'mailto:appifydevs@gmail.com' because a user gesture is required | Low | Low |
 
 **For EchoGPT Mobile App:**
+| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
+|--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
+| 006 | Message sent not working | 1. Open EchoGPT App<br>2. Write some message<br>3. Send message | Message should be sent and get a response | Message is not sending | Android 12, OnePlus Nord, App version 1.0.5 | — | No log found | Critical | Critical |
