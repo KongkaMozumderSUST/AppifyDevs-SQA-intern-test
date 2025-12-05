@@ -2,7 +2,7 @@
 |--------|------------|-------------|-------|-----------------|------------|----------|
 | T001 | SignUp EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignUp with Email/Google/Twitter/Github | User signs up & redirected to homepage | Functional, Positive | Critical |
 | T002 | SignIn EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignIn with Email/Google/Twitter/Github | User signs in with proper credentials | Functional, Positive | Critical |
-| T003 | Verify EchoGPT chat message | EchoGPT Website + App | 1. Open website 2. New Chat → type message 3. Send 4. Repeat | Users can send messages & receive responses | Functional, Positive | Critical |
+| T003 | Verify EchoGPT chat message | EchoGPT Website + App | 1. Open website 2. New Chat and type message 3. Send 4. Repeat | Users can send messages & receive responses | Functional, Positive | Critical |
 | T004 | Verify AI Image Generator | EchoGPT Website | 1. Load page 2. Click Image 3. Write prompt 4. Send | A new AI image is generated | Functional, Exploratory, Positive | High |
 | T005 | Check history | EchoGPT Website + App | 1. Login 2. Check history on website & app | History is shown in both | Functional, Exploratory, Positive | Medium |
 | T006 | Change Models | EchoGPT Website + App | 1. Change models 2. Send messages | Everything works properly | Functional, Positive | High |
@@ -38,5 +38,5 @@
 | T036 | Check Discord Link | Both Websites + Both Apps | 1. Click Discord link | Link works properly | Positive | Low |
 | T037 | Check App list | AppTestingService Website | 1. Open App list | List shown properly | Exploratory | Medium |
 | T038 | Load Test AppTestingService | AppTestingService Website | 1. JMeter 1000 users | Everything works fine | Performance | Major |
-| T039 | Backup → Reinstall → Restore | Both Apps | 1. Reinstall 2. Login | Data restored from server | Functional | Medium |
+| T039 | Backup , Reinstall, Restore | Both Apps | 1. Reinstall 2. Login | Data restored from server | Functional | Medium |
 | T040 | Continuous 3-hour usage (Soak test) | Both Apps | 1. Use app for 3 hrs | No crash/freeze/memory leak | Stability | High |
