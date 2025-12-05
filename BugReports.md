@@ -1,4 +1,4 @@
-For EchoGPT Website:
+**For EchoGPT Website:**
 
 | Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
 |--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
