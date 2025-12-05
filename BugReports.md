@@ -11,4 +11,4 @@
 **For EchoGPT Mobile App:**
 | Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
 |--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
-| 006 | Message sent not working | 1. Open EchoGPT App<br>2. Write some message<br>3. Send message | Message should be sent and get a response | Message is not sending | Android 12, OnePlus Nord, App version 1.0.5 | — | No log found | Critical | Critical |
+| 006 | Message sent not working | 1. Open EchoGPT App<br>2. Write some message<br>3. Send message | Message should be sent and get a response | Message is not sending | Android 12, OnePlus Nord, App version 1.0.5 | https://github.com/user-attachments/assets/4a196466-9e67-4f23-8a7d-acd3e1447d45  | No log found | Critical | Critical |
