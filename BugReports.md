@@ -25,7 +25,7 @@
 
 **For AppTestingService App**
 
-| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
+| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings/Screenshots | Logs | Severity | Priority |
 |--------|-----------|--------------------|-----------------|----------------|--------------|--------------------|------|----------|----------|
 | 011 | Typo in “Upload App” | 1. Open AppServiceTesting App <br>2. Go to **Profile** <br>3. Check “Upload App” text | Should display **“Upload App”** | Displays **“Uplaod App”** | OnePlus Nord, Android 12, App v1.0.1 | ![Image](https://github.com/user-attachments/assets/16d8b139-c9f5-434c-99b7-49a4bc9d0bb5) | No log found | Low | Medium |
 | 012 | Support Ticket not working & Empty message can be sent | 1. Open AppServiceTesting App <br>2. Go to **Support Ticket** <br>3. Send an empty message | Empty message should NOT be sent; timestamp should be correct | Empty message gets sent; timing is incorrect | OnePlus Nord, Android 12, App v1.0.1 | https://github.com/user-attachments/assets/957b23ff-260b-4329-b9ff-1d24b75519db | No log found | High | High |
