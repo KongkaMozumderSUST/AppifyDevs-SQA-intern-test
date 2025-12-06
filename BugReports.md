@@ -9,7 +9,7 @@
 | 005 | Email Us not launching mail | 1. Navigate https://echogpt.live/<br>2. Click “Support”<br>3. Click “Email Us” | Email should launch | Email did not launch | Desktop,Acer Aspire A315-24P Laptop, Windows 11, Chrome Latest; OnePlus Nord, Android 12, Firefox | https://github.com/user-attachments/assets/b263bc40-e705-436b-a835-e994e4c7f9b7 | Not allowed to launch 'mailto:appifydevs@gmail.com' because a user gesture is required | Medium | Low |
 | 006 | Clickable element is not accessible with “Tab” | 1. Navigate to https://echogpt.live/ <br>2. Press the **Tab** key several times | All clickable elements should be accessible via Tab navigation | Image, History, AI Job Analysis, Store, etc. are not focusable/clickable with Tab | Desktop,Acer Aspire A315-24P Laptop, Windows 11, Chrome Latest, Firefox |<img width="1640" height="801" alt="Image" src="https://github.com/user-attachments/assets/4f0aa8c1-e36e-4098-bbc2-36de7b3c523a" /> | No log found | Low | Medium |
 
-**For EchoGPT Mobile App:**
+**For EchoChat Mobile App:**
 
 | Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings/Screenshots | Logs | Severity | Priority |
 |--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
