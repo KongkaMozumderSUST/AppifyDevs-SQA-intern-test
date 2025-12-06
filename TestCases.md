@@ -2,7 +2,7 @@
 |--------|------------|-------------|-------|-----------------|------------|----------|
 | T001 | SignUp EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignUp with Email/Google/Twitter/Github | User signs up & redirected to homepage | Functional, Exploratory, Positive | Critical |
 | T002 | SignIn EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignIn with Email/Google/Twitter/Github | User signs in with proper credentials | Functional, Exploratory, Positive | Critical |
-| T003 | Verify EchoGPT chat message | EchoGPT Website + EchoChat App | 1. Open website 2. New Chat and type message 3. Send 4. Repeat | Users can send messages & receive responses | Functional, Positive | Critical |
+| T003 | Verify EchoGPT chat message | EchoGPT Website + EchoChat App | 1. Open website 2. New Chat and type message 3. Send 4. Repeat | Users can send messages & receive responses | Functional, Exploratory Positive | Critical |
 | T004 | Verify AI Image Generator | EchoGPT Website | 1. Load page 2. Click Image 3. Write prompt 4. Send | A new AI image is generated | Functional, Exploratory, Positive | High |
 | T005 | Check history | EchoGPT Website + EchoChat App | 1. Login 2. Check history on website & app | History is shown in both | Functional, Exploratory, Positive | Medium |
 | T006 | Change Models | EchoGPT Website + EchoChat App | 1. Change models 2. Send messages | Everything works properly | Functional, Positive | High |
@@ -19,9 +19,9 @@
 | T017 | Load Test for 100–1000 users | EchoGPT Website | 1. Use JMeter | System should not crash | Performance, Load | Critical |
 | T018 | Stress Test for 10,000 users | EchoGPT Website | 1. JMeter 10k threads | System handles heavy stress | Performance, Stress | Critical |
 | T019 | Admin page exposure test | EchoGPT Website | 1. Open /admin | Admin page should not be exposed | Security | Critical |
-| T020 | 6-hour continuous chat session | EchoGPT Website + EchoChat App  | 1. Send messages every 30–60 secs for 6h | No crash, stable performance | Stability | Critical |
+| T020 | 6-hour continuous chat session | EchoGPT Website + EchoChat App  | 1. Send messages every 30–60 secs for 6h | No crash, stable performance | Exploratory, Stability | Critical |
 | T021 | Turn internet ON/OFF during chat | EchoGPT Website + EchoChat App | 1. Chat 2. Turn WiFi off/on | Auto-reconnect; no crash or data loss | Stability | Critical |
-| T022 | Long conversation scrolling | EchoGPT Website + EchoChat App  | 1. Create 100+ messages 2. Scroll | Smooth, no lag/freeze | Stability | Major |
+| T022 | Long conversation scrolling | EchoGPT Website + EchoChat App  | 1. Create 100+ messages 2. Scroll | Smooth, no lag/freeze | Exploraytory, Stability | Major |
 | T023 | Browser compatibility test | EchoGPT Website + AppTestingService Website | Chrome, Firefox, Edge, Mobile browser | No browser-specific issues | Stability | Critical |
 | T024 | Login with wrong email | Website + App | 1. Enter wrong email | Login should fail | Exploratory, Negative | Critical |
 | T025 | Submit empty messages | EchoGPT Website + EchoChat App  | 1. Try to send empty text | Send disabled; error shown | Negative | Medium |
