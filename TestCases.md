@@ -22,7 +22,7 @@
 | T020 | 6-hour continuous chat session | EchoGPT Website + App | 1. Send messages every 30–60 secs for 6h | No crash, stable performance | Stability | Critical |
 | T021 | Turn internet ON/OFF during chat | EchoGPT Website + App | 1. Chat 2. Turn WiFi off/on | Auto-reconnect; no crash or data loss | Stability | Critical |
 | T022 | Long conversation scrolling | EchoGPT Website + App | 1. Create 100+ messages 2. Scroll | Smooth, no lag/freeze | Stability | Major |
-| T023 | Browser compatibility test | EchoGPT Website | Chrome, Firefox, Edge, Mobile browser | No browser-specific issues | Stability | Critical |
+| T023 | Browser compatibility test | EchoGPT Website + AppTestingService Website | Chrome, Firefox, Edge, Mobile browser | No browser-specific issues | Stability | Critical |
 | T024 | Login with wrong email | Website + App | 1. Enter wrong email | Login should fail | Negative | Critical |
 | T025 | Submit empty messages | EchoGPT Website + App | 1. Try to send empty text | Send disabled; error shown | Negative | Medium |
 | T026 | Dark mode visibility | EchoGPT Website + App | 1. Toggle dark mode | Proper contrast & visibility | UI | Low |
