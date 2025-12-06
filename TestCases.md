@@ -30,9 +30,9 @@
 | T028 | Logout | Website + App | 1. Click logout | Session cleared | Functional | Low |
 | T029 | SQL/meta characters in input | Website + App | 1. Submit `' OR '1'='1` | Sanitized; no server failure | Edge | High |
 | T030 | Install apps | EchoChat App + AppTestingService Apps | 1. Install from Playstore | Installs & opens without crash | Functional | Critical |
-| T031 | Create account | AppTestingService Website + App | 1. Valid email, name, password | Account created successfully | Functional, Positive | Critical |
-| T032 | Create account with non-existent email | AppTestingService Website + App | 1. Enter invalid email | Account not created | Negative | Critical |
-| T033 | Login with valid credentials | AppTestingService Website + App | 1. Enter valid credentials | Successful login | Positive, Exploratory Functional | Critical |
+| T031 | Create account | AppTestingService Website + App | 1. Valid email, name, password | Account created successfully | Functional, Exploratory, Positive | Critical |
+| T032 | Create account with non-existent email | AppTestingService Website + App | 1. Enter non-existent email | Account not created | Exploratory, Negative | Critical |
+| T033 | Login with valid credentials | AppTestingService Website + App | 1. Enter valid credentials | Successful login | Positive, Exploratory, Functional | Critical |
 | T034 | Login with invalid credentials | AppTestingService Website + App | 1. Enter invalid credentials | Login fails | Negative, Exploratory | Critical |
 | T035 | Submit App | AppTestingService Website + App | 1. Enter details & payment | App submission successful | Positive | Major |
 | T036 | Check Discord Link | Both Websites + Both Apps | 1. Click Discord link | Link works properly | Positive | Low |
