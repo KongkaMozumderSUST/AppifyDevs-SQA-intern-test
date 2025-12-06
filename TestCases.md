@@ -1,7 +1,7 @@
 | Test ID | Test Title | App/Website | Steps | Expected Result | Test Types | Severity |
 |--------|------------|-------------|-------|-----------------|------------|----------|
-| T001 | SignUp EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignUp with Email/Google/Twitter/Github | User signs up & redirected to homepage | Functional, Positive | Critical |
-| T002 | SignIn EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignIn with Email/Google/Twitter/Github | User signs in with proper credentials | Functional, Positive | Critical |
+| T001 | SignUp EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignUp with Email/Google/Twitter/Github | User signs up & redirected to homepage | Functional, Exploratory, Positive | Critical |
+| T002 | SignIn EchoGPT website with Email, Google, Twitter, Github | EchoGPT Website | 1. Click SignIn with Email/Google/Twitter/Github | User signs in with proper credentials | Functional, Exploratory, Positive | Critical |
 | T003 | Verify EchoGPT chat message | EchoGPT Website + EchoChat App | 1. Open website 2. New Chat and type message 3. Send 4. Repeat | Users can send messages & receive responses | Functional, Positive | Critical |
 | T004 | Verify AI Image Generator | EchoGPT Website | 1. Load page 2. Click Image 3. Write prompt 4. Send | A new AI image is generated | Functional, Exploratory, Positive | High |
 | T005 | Check history | EchoGPT Website + EchoChat App | 1. Login 2. Check history on website & app | History is shown in both | Functional, Exploratory, Positive | Medium |
@@ -23,7 +23,7 @@
 | T021 | Turn internet ON/OFF during chat | EchoGPT Website + EchoChat App | 1. Chat 2. Turn WiFi off/on | Auto-reconnect; no crash or data loss | Stability | Critical |
 | T022 | Long conversation scrolling | EchoGPT Website + EchoChat App  | 1. Create 100+ messages 2. Scroll | Smooth, no lag/freeze | Stability | Major |
 | T023 | Browser compatibility test | EchoGPT Website + AppTestingService Website | Chrome, Firefox, Edge, Mobile browser | No browser-specific issues | Stability | Critical |
-| T024 | Login with wrong email | Website + App | 1. Enter wrong email | Login should fail | Negative | Critical |
+| T024 | Login with wrong email | Website + App | 1. Enter wrong email | Login should fail | Exploratory, Negative | Critical |
 | T025 | Submit empty messages | EchoGPT Website + EchoChat App  | 1. Try to send empty text | Send disabled; error shown | Negative | Medium |
 | T026 | Dark mode visibility | EchoGPT Website + EchoChat App | 1. Toggle dark mode | Proper contrast & visibility | UI | Low |
 | T027 | Image Like Count | EchoGPT Website | 1. Click Image → Like | Like count updates | Exploratory | Low |
@@ -32,8 +32,8 @@
 | T030 | Install apps | EchoChat App + AppTestingService Apps | 1. Install from Playstore | Installs & opens without crash | Functional | Critical |
 | T031 | Create account | AppTestingService Website + App | 1. Valid email, name, password | Account created successfully | Functional, Positive | Critical |
 | T032 | Create account with non-existent email | AppTestingService Website + App | 1. Enter invalid email | Account not created | Negative | Critical |
-| T033 | Login with valid credentials | AppTestingService Website + App | 1. Enter valid credentials | Successful login | Positive, Functional | Critical |
-| T034 | Login with invalid credentials | AppTestingService Website + App | 1. Enter invalid credentials | Login fails | Negative | Critical |
+| T033 | Login with valid credentials | AppTestingService Website + App | 1. Enter valid credentials | Successful login | Positive, Exploratory Functional | Critical |
+| T034 | Login with invalid credentials | AppTestingService Website + App | 1. Enter invalid credentials | Login fails | Negative, Exploratory | Critical |
 | T035 | Submit App | AppTestingService Website + App | 1. Enter details & payment | App submission successful | Positive | Major |
 | T036 | Check Discord Link | Both Websites + Both Apps | 1. Click Discord link | Link works properly | Positive | Low |
 | T037 | Check App list | AppTestingService Website | 1. Open App list | List shown properly | Exploratory | Medium |
