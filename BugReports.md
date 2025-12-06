@@ -1,6 +1,6 @@
 **For EchoGPT Website:**
 
-| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
+| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings/Screenshots | Logs | Severity | Priority |
 |--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
 | 001 | Sign Up/Sign In with Twitter not working | 1. Navigate https://echogpt.live/login<br>2. Click Sign Up/Sign In with Twitter | User can Sign Up or Sign In | Sign Up/Sign In with Twitter not working | Desktop, Windows 11, Chrome Latest; Mobile, Firefox | https://github.com/user-attachments/assets/69290f60-69b4-468f-958c-c9436854898d | No error shown | Critical | Critical |
 | 002 | Message is not sending | 1. Navigate https://echogpt.live/<br>2. Click “New Chat”<br>3. Try to send message | Messaging should work & get a response | Messaging not working, page freezes | Desktop, Windows 11, Chrome Latest; Mobile, Firefox | https://github.com/user-attachments/assets/60ff0112-ee3f-4a21-a655-856c34cfc51a | _app-7ee85ac5c3844ba9.js:1 GET https://api.echogpt.live/v1/chat/response/ 404 (Not Found) | Critical | Critical |
@@ -10,6 +10,14 @@
 | 006 | Clickable element is not accessible with “Tab” | 1. Navigate to https://echogpt.live/ <br>2. Press the **Tab** key several times | All clickable elements should be accessible via Tab navigation | Image, History, AI Job Analysis, Store, etc. are not focusable/clickable with Tab | Desktop: Windows 11, Chrome Latest, Firefox |<img width="1640" height="801" alt="Image" src="https://github.com/user-attachments/assets/4f0aa8c1-e36e-4098-bbc2-36de7b3c523a" /> | No log found | Low | Medium |
 
 **For EchoGPT Mobile App:**
-| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings | Logs | Severity | Priority |
+| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings/Screenshots | Logs | Severity | Priority |
 |--------|-----------|------------------|----------------|---------------|-------------|-----------------|------|----------|----------|
 | 007 | Message sent not working | 1. Open EchoGPT App<br>2. Write some message<br>3. Send message | Message should be sent and get a response | Message is not sending | Android 12, OnePlus Nord, App version 1.0.5 | https://github.com/user-attachments/assets/4a196466-9e67-4f23-8a7d-acd3e1447d45  | No log found | Critical | Critical |
+
+**For AppTestingService Website**
+| Bug ID | Bug Title | Steps to Reproduce | Expected Result | Actual Result | Environment | Screen Recordings/Screenshots | Logs | Severity | Priority |
+|--------|-----------|--------------------|-----------------|----------------|--------------|--------------------|------|----------|----------|
+| 008 | Account can be created with a non-existent email | 1. Open https://apptestingservice.com/ <br>2. Create an account using a non-existent email | Account should NOT be created; validation should reject invalid/non-existent emails | Account is created successfully | Windows 11, Chrome Latest, Desktop |  https://github.com/user-attachments/assets/43293039-3691-4028-8ed6-81f4b410050e| No log found | Critical | Critical |
+| 009 | UI typo in “Submit App” | 1. Open https://apptestingservice.com/ <br>2. Login <br>3. Navigate to **Submit App** | Should display **“Submit App”** | Displays **“Sumbit App”** | Windows 11, Chrome Latest, Desktop | <img width="836" height="777" alt="Image" src="https://github.com/user-attachments/assets/0ddf67a7-e4c9-4249-ab1f-569d1d93b9a3" /> | No log found | Low | High |
+| 010 | Discord link not working | 1. Open https://apptestingservice.com/ <br>2. Login <br>3. Click **Join Discord** | Discord link should open/login | Invalid link shown; does not open Discord | Windows 11, Chrome Latest, Desktop | https://github.com/user-attachments/assets/47a1ab36-fef5-4955-b690-295c5d11c5d5 | No log found | Low | Medium |
+
