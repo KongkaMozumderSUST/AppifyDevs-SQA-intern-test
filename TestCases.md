@@ -15,7 +15,7 @@
 | T013 | Color contrast | Website + App | 1. Inspect CTAs & small text | WCAG AA contrast ≥ 4.5:1 | Accessibility | Medium |
 | T014 | Screen reader reading order | EchoGPT Website + App | 1. Enable TalkBack 2. Navigate | Elements read in correct order | Accessibility, Exploratory | High |
 | T015 | Keyboard accessibility | EchoGPT Website | 1. Use Tab/Shift+Tab | All interactive elements reachable | Accessibility | High |
-| T016 | Crash Recovery | EchoGPT App + AppTestingService App | 1. Force-stop 2. Relaunch | App restarts; no corruption | Stability | Major |
+| T016 | Crash Recovery | EchoChat App + AppTestingService App | 1. Force-stop 2. Relaunch | App restarts; no corruption | Stability | Major |
 | T017 | Load Test for 100–1000 users | EchoGPT Website | 1. Use JMeter | System should not crash | Performance, Load | Critical |
 | T018 | Stress Test for 10,000 users | EchoGPT Website | 1. JMeter 10k threads | System handles heavy stress | Performance, Stress | Critical |
 | T019 | Admin page exposure test | EchoGPT Website | 1. Open /admin | Admin page should not be exposed | Security | Critical |
