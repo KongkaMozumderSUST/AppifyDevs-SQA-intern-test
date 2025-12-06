@@ -1,0 +1,144 @@
+# Exploratory Testing — Charters, Findings & Evidence
+
+## EchoGPT Website
+
+---
+
+## **Charter 01: Authentication (Sign Up & Login)**
+**Goal:** Explore authentication via Email, Google, GitHub, and Twitter; observe error handling, redirects, and UI behavior.
+
+### **Findings**
+
+### **1. Twitter Sign-Up Not Working**
+- **Issue:** Clicking **“Sign Up with Twitter”** does not work.  
+- **Expected:** Twitter OAuth login should load.  
+- **Actual:** No authentication screen appears.  
+- **Evidence:** **BUG 001**
+
+---
+
+## **Charter 02: AI Image Generator & Interactions**
+**Goal:** Explore AI image generator and like counts.  
+
+### **Findings**
+
+### **2. Image Is Not Generating**
+- **Issue:** Entered prompt for image generation but did not work.  
+- **Expected:** Image should generate normally.  
+- **Actual:** Error shown while generating image.  
+- **Evidence:** **BUG 003**
+
+### **3. Image Like Count Not Increasing**
+- **Issue:** Like count does not increase after clicking Like.  
+- **Expected:** Like count should increase or error should show.  
+- **Actual:** Like count remains unchanged.  
+- **Evidence:** **BUG 004**
+
+---
+
+## **Charter 03: Chat Message Interactions**
+**Goal:** Explore messaging option.
+
+### **Findings**
+
+### **4. Message Not Sending / No Response**
+- **Issue:** Message typed but sending does not work.  
+- **Expected:** Message should be sent and response should be received.  
+- **Actual:** Console shows error; messaging does not work.  
+- **Evidence:** **BUG 002**
+
+---
+
+## **Charter 04: AI Job Analysis & Support Features**
+**Goal:** Explore features of EchoGPT.
+
+### **Findings**
+
+### **5. Email Us Not Working**
+- **Issue:** The email link (`mailto:appifydevs@gmail.com`) fails to open due to browser restrictions.  
+- **Expected:** Should open email client.  
+- **Actual:** Mail window does not open.  
+- **Evidence:** **BUG 005**
+
+---
+
+## **Charter 06: Checking User Accessibility**
+**Goal:** Explore UI navigation using Tab key.
+
+### **Findings**
+
+### **6. Clickable Elements Not Accessible via Tab**
+- **Issue:** Tab navigation does not work for several items.  
+- **Expected:** Elements like Image, History, AI Job Analysis, Store should be focusable via Tab.  
+- **Actual:** These items are not focusable/clickable using Tab key.  
+- **Evidence:** **BUG 006**
+
+---
+
+# EchoChat App
+
+---
+
+## **Charter 05: Chat Message Interactions**
+**Goal:** Explore messaging option.
+
+### **Findings**
+
+### **7. Message Not Sending / Not Receiving Response**
+- **Issue:** Message typed but not sending.  
+- **Expected:** Message should send and response should appear.  
+- **Actual:** Messaging not working.  
+- **Evidence:** **BUG 007**
+
+---
+
+# AppTestingService Website + App
+
+---
+
+## **Charter 06: Authentication & Sign Up**
+**Goal:** Explore authentication behavior.
+
+### **Findings**
+
+### **8. Account Can Be Created With Non-Existent Email**
+- **Issue:** Account successfully created with invalid email.  
+- **Expected:** Error message: *“Email address not found.”*  
+- **Actual:** Account is created without validation.  
+- **Evidence:** **BUG 008**
+
+---
+
+## **Charter 07: UI Exploration & Typos**
+**Goal:** Identify UI issues and spelling mistakes.
+
+### **Findings**
+
+### **9. Spelling Mistakes Found**
+- **Issue:** Buttons have spelling errors: **“Sumbit App”** and **“Uplaod App”**.  
+- **Expected:** Correct spellings → **Submit App** and **Upload App**.  
+- **Actual:** Typos present in UI.  
+- **Evidence:** **BUG 009, BUG 011**
+
+---
+
+## **Charter 08: Exploring Links & Support Tickets (AppTestingService App)**
+**Goal:** Check links and support ticket functionality.
+
+### **Findings**
+
+### **10. Invalid Link & Support Ticket Issues**
+- **Issue:** Discord link is not working.  
+- **Issue:** Support ticket allows sending empty messages; timestamps incorrect.  
+- **Expected:**  
+  - Links should work  
+  - Empty messages should NOT be allowed  
+  - Timestamps should be correct  
+- **Actual:**  
+  - Discord link broken  
+  - Empty message gets sent  
+  - Timing shown incorrectly  
+- **Evidence:** **BUG 010, BUG 012**
+
+---
+
