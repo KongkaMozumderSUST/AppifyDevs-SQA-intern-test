@@ -40,3 +40,4 @@
 | T038 | Load Test AppTestingService | AppTestingService Website | 1. JMeter 1000 users | Everything works fine | Performance | Major |
 | T039 | Backup , Reinstall, Restore | Both Apps | 1. Reinstall 2. Login | Data restored from server | Functional | Medium |
 | T040 | Continuous 3-hour usage (Soak test) | Both Apps | 1. Use app for 3 hrs | No crash/freeze/memory leak | Stability | High |
+| T041 | Check Support Ticket | AppTestingService App | 1. Open App 2. Click Profile 3. Click Support Ticket 4. Try to send empty message | Message should not be sent | Functional | High |
