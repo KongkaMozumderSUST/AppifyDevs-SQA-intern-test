@@ -7,7 +7,7 @@
 | T005 | Check history | EchoGPT Website + App | 1. Login 2. Check history on website & app | History is shown in both | Functional, Exploratory, Positive | Medium |
 | T006 | Change Models | EchoGPT Website + App | 1. Change models 2. Send messages | Everything works properly | Functional, Positive | High |
 | T007 | Check responsiveness across devices | EchoGPT Website | 1. Change desktop resolutions | Page responsiveness works | UI | Medium |
-| T008 | Check cross site scripting (XSS) | Website + App | 1. Enter `<script>alert('XSS')</script>` in fields 2. Send | Shown as text; no script executes | Security | High |
+| T008 | Check cross site scripting (XSS) | Websites | 1. Enter `<script>alert('XSS')</script>` in fields 2. Send | Shown as text; no script executes | Security | High |
 | T009 | Check AI Job Analysis | EchoGPT Website | 1. Paste job description 2. Analyze | Analyzed output shown | Functional, Exploratory, Positive | High |
 | T010 | Check Payment Option | EchoGPT Website + App | 1. Click Subscription 2. Select plan 3. Pay | Payment works & deducts correct amount | Functional | High |
 | T011 | Check design consistency | Website + App | 1. Check colors, buttons, margins, footer, typos | Consistent design & working buttons | UI/UX | Medium |
