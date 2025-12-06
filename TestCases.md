@@ -13,7 +13,7 @@
 | T011 | Check design consistency | Website + App | 1. Check colors, buttons, margins, footer, typos | Consistent design & working buttons | UI/UX | Medium |
 | T012 | Extremely long message | EchoGPT Website + App | 1. Paste >20k chars 2. Send | Message accepted/rejected clearly; UI stays responsive | Edge | Medium |
 | T013 | Color contrast | Website + App | 1. Inspect CTAs & small text | WCAG AA contrast ≥ 4.5:1 | Accessibility | Medium |
-| T014 | Screen reader reading order |  Website + App | 1. Enable TalkBack 2. Navigate | Elements read in correct order | Accessibility, Exploratory | High |
+| T014 | Screen reader reading order |  Website + App | 1. Enable TalkBack or Screen reader 2. Navigate | Elements read in correct order | Accessibility, Exploratory | High |
 | T015 | Keyboard accessibility | EchoGPT Website + AppTestingService Website | 1. Use Tab/Shift+Tab | All interactive elements reachable | Accessibility | High |
 | T016 | Crash Recovery | EchoChat App + AppTestingService App | 1. Force-stop 2. Relaunch | App restarts; no corruption | Stability | Major |
 | T017 | Load Test for 100–1000 users | EchoGPT Website | 1. Use JMeter | System should not crash | Performance, Load | Critical |
