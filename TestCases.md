@@ -13,8 +13,8 @@
 | T011 | Check design consistency | Website + App | 1. Check colors, buttons, margins, footer, typos | Consistent design & working buttons | UI/UX | Medium |
 | T012 | Extremely long message | EchoGPT Website + App | 1. Paste >20k chars 2. Send | Message accepted/rejected clearly; UI stays responsive | Edge | Medium |
 | T013 | Color contrast | Website + App | 1. Inspect CTAs & small text | WCAG AA contrast ≥ 4.5:1 | Accessibility | Medium |
-| T014 | Screen reader reading order | EchoGPT Website + App | 1. Enable TalkBack 2. Navigate | Elements read in correct order | Accessibility, Exploratory | High |
-| T015 | Keyboard accessibility | EchoGPT Website | 1. Use Tab/Shift+Tab | All interactive elements reachable | Accessibility | High |
+| T014 | Screen reader reading order |  Website + App | 1. Enable TalkBack 2. Navigate | Elements read in correct order | Accessibility, Exploratory | High |
+| T015 | Keyboard accessibility | EchoGPT Website + AppTestingService Website | 1. Use Tab/Shift+Tab | All interactive elements reachable | Accessibility | High |
 | T016 | Crash Recovery | EchoChat App + AppTestingService App | 1. Force-stop 2. Relaunch | App restarts; no corruption | Stability | Major |
 | T017 | Load Test for 100–1000 users | EchoGPT Website | 1. Use JMeter | System should not crash | Performance, Load | Critical |
 | T018 | Stress Test for 10,000 users | EchoGPT Website | 1. JMeter 10k threads | System handles heavy stress | Performance, Stress | Critical |
@@ -29,7 +29,7 @@
 | T027 | Image Like Count | EchoGPT Website | 1. Click Image → Like | Like count updates | Exploratory | Low |
 | T028 | Logout | Website + App | 1. Click logout | Session cleared | Functional | Low |
 | T029 | SQL/meta characters in input | Website + App | 1. Submit `' OR '1'='1` | Sanitized; no server failure | Edge | High |
-| T030 | Install apps | EchoGPT + AppTestingService Apps | 1. Install from Playstore | Installs & opens without crash | Functional | Critical |
+| T030 | Install apps | EchoChat App + AppTestingService Apps | 1. Install from Playstore | Installs & opens without crash | Functional | Critical |
 | T031 | Create account | AppTestingService Website + App | 1. Valid email, name, password | Account created successfully | Functional, Positive | Critical |
 | T032 | Create account with non-existent email | AppTestingService Website + App | 1. Enter invalid email | Account not created | Negative | Critical |
 | T033 | Login with valid credentials | AppTestingService Website + App | 1. Enter valid credentials | Successful login | Positive, Functional | Critical |
