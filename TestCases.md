@@ -41,3 +41,4 @@
 | T039 | Backup , Reinstall, Restore | Both Apps | 1. Reinstall 2. Login | Data restored from server | Functional | Medium |
 | T040 | Continuous 3-hour usage (Soak test) | Both Apps | 1. Use app for 3 hrs | No crash/freeze/memory leak | Stability | High |
 | T041 | Check Support Ticket | AppTestingService App | 1. Open App 2. Click Profile 3. Click Support Ticket 4. Try to send empty message | Message should not be sent | Functional | Medium |
+| T042 | Check Email Us | Both Website and Both App | 1. Open websites 2. Click Email Us | Mail should open | Functional, Exploratory| Medium |
