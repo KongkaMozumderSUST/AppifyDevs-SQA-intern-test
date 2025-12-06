@@ -19,9 +19,9 @@
 | T017 | Pass | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop, EchoGPT website | 6/12/2025 9:30pm | - | No error shown in JMeter |
 | T018 | Fail | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop, EchoGPT website | 6/12/2025 10:00pm | - | Shows some error request in JMeter, Http request error |
 | T019 | Pass | Desktop, Chrome Latest, Windows 11,  EchoGPT website, Acer Aspire A315-24P Laptop, AppTestingService | 6/12/2025 10:10pm | - | Admin page did not expose |
-| T020 | Fail | Desktop, Chrome Latest, Windows 11,Acer Aspire A315-24P Laptop, Mobile, Android 12, OnePlus Nord, EchoGPT website + EchoChat App | 6/12/2025 10:15pm | 002 | Message is not sending |
-| T021 | Pass | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop,  OnePlus Nord, Mobile, Android 12 EchoGPT website + EchoChat App | 6/12/2025 10:20pm | - | Auto-reconnect; no crash or data loss |
-| T022 | Fail | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop,Mobile, OnePlus Nord, Android 12 EchoGPT website + EchoChat App | 6/12/2025 11:30pm | 002 | Messaging not working |
+| T020 | Fail | Desktop, Chrome Latest, Windows 11,Acer Aspire A315-24P Laptop, Mobile, Android 12, OnePlus Nord, EchoGPT website + EchoChat App | 6/12/2025 01:15pm | 002 | Message is not sending |
+| T021 | Pass | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop,  OnePlus Nord, Mobile, Android 12 EchoGPT website + EchoChat App | 6/12/2025 01:20pm | - | Auto-reconnect; no crash or data loss |
+| T022 | Fail | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop,Mobile, OnePlus Nord, Android 12 EchoGPT website + EchoChat App | 6/12/2025 01:30pm | 002 | Messaging not working |
 | T023 | Pass | EchoGPT Website + AppTestingService Website, Chrome, Firefox, Edge, Mobile browser, OnePlus Nord,Acer Aspire A315-24P Laptop, Windows 11, Android 12 | 5/12/2025 6:30pm | - | No issues |
 | T024 | Pass | EchoGPT Website + AppTestingService Website+ Both App, Chrome, Firefox, Edge, Mobile browser, OnePlus Nord, Acer Aspire A315-24P Laptop, Windows 11, Android 12 | 5/12/2025 6:47pm | - | Error message is shown |
 | T025 | Pass | Desktop, Chrome Latest, Windows 11, Acer Aspire A315-24P Laptop, Mobile, Android 12,OnePlus Nord, EchoGPT website + EchoChat App | 5/12/2025 6:50pm | - | Send disabled; error shown |
